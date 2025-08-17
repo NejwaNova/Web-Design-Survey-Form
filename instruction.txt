@@ -1,0 +1,15 @@
+Note the following:
+    *The age input field MUST accept only numbers;
+    *The radio button should not allow simultaneous selection i.e both yes and no at the same time;
+    *The first select element has the following options:
+        1. Student
+        2. Full Time Job
+        3. Full Time Learer
+        4. Prefer not to say
+        5. Other
+    *The second select element has the following options:
+        1. Challenges
+        2. Projects
+        3. Community
+        4. Open Source
+    

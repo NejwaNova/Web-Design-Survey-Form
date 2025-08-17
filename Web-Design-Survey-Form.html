@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web design survey form</title>
+</head>
+<body>
+    <h1>Habesha Tech Survey Form</h1>
+    <p>Thank you for taking the time to help us improve the platform.</p>
+    <form action="">
+        <label for="name">Name</label><input type="text" id="name" placeholder="Enter your name">
+        <label for="email">Email</label><input type="text" minlength="5" maxlength="25" id="email" placeholder="Enter your email">
+        <label for="age">Age(optional)</label><input type="text" id="age" placeholder="Age"><br><br>
+        <label for="select">Which option best describes your current role?</label><br><br>
+         
+        <select name="" id="select">
+            <option value="Select current role">Select current role</option>
+            <option value="Student">Student</option>
+            <option value=" Full Time Job"> Full Time Job</option>
+            <option value="Full Time Learer">Full Time Learer</option>
+            <option value="Prefer not to say">Prefer not to say</option>
+            <option value="Other">Other</option>
+        </select><br><br>
+        
+        <label for="reccomend">Would you reccomend Habesha Tech to a friend?</label>
+        <br><br>
+        <input type="radio" name="reccomend" id="reccomend" value="Definitely">Definitely
+        <input type="radio" name="reccomend" id="reccomend" value="May be">May be
+        <input type="radio" name="reccomend" id="reccomend" value="Not sure">Not sure
+        <br><br>
+        <label for="fav">What is your favorite feature of Habesha Tech? </label><br><br>
+
+        <select name="fav" id="fav">
+            <option value="Challenges">Challenges</option>
+            <option value="Projects">Projects</option>
+            <option value="Community">Community</option>
+            <option value=" Open Source"> Open Source</option>
+        </select><br><br>
+
+        <label for="see">What would you like to see improved?(Select all that apply)</label><br><br>
+        <input type="checkbox" name="see" value="Front-end projects">Front-end projects
+        <input type="checkbox" name="see" id="see" value="Back_end Projects">Back_end Projects
+        <input type="checkbox" name="see" value="Data viaualization">Data viaualization
+        <input type="checkbox" name="see" value="Challenges">Challenges
+        <input type="checkbox" name="see" value="Open Source Community">Open Source Community
+        <input type="checkbox" name="see" value="Videos">Videos
+        <input type="checkbox" name="see" value="Additional Courses">Additional Courses
+        <br><br>
+
+        <label for="coom">Any comments or suggestions?</label><br><br>
+
+        <textarea name="" id="coom" cols="20" rows="4">Enter your comment here...</textarea>
+        <br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+</body>
+</html>
